@@ -1,4 +1,7 @@
-# Esp8266Time
+ESP8266Time Edited by 3tawi
+ESP8266Time Library: https://github.com/3tawi/Esp8266Time
+Find All "Great Projects" Videos : https://www.youtube.com/c/GreatProjects
+
 An Arduino library for setting and retrieving internal RTC time on ESP8266 boards
 
 setTime(30, 24, 15, 17, 1, 2021);  // 17th Jan 2021 15:24:30
