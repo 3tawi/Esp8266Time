@@ -34,7 +34,6 @@ class ESP8266Time {
 		ESP8266Time();
 		void setTime(long epoch = 1609459200, int ms = 0);	// default (1609459200) = 1st Jan 2021
 		void setTime(int sc, int mn, int hr, int dy, int mt, int yr, int ms = 0);
-		void setTimeStruct(tm t);
 		void getTimeStruct();
 		String getTime(String format);
 		
