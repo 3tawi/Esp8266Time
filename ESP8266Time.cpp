@@ -65,16 +65,6 @@ void ESP8266Time::setTime(int sc, int mn, int hr, int dy, int mt, int yr, int ms
 }
 
 /*!
-    @brief  set time from struct
-	@param	tm
-			time struct
-*/
-void ESP8266Time::setTimeStruct(tm t) { 
-	time_t timeSinceEpoch = mktime(&t); 
-	setTime(timeSinceEpoch, 0); 
-}
-
-/*!
     @brief  set the internal RTC time
     @param  epoch
             epoch time in seconds
